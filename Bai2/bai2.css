@@ -1,0 +1,197 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container>header{
+    position: relative;
+    background-image: url('./backgroundFPT.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 0px;
+    padding-bottom: 30%;
+}
+
+.container>header>.info{
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+}
+
+.container>header>.info>h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 5px;
+    text-shadow: 0 0 10px orangered;
+    border-bottom: 2px orange solid;
+}
+
+.container>header>.info>p{
+    font-variant: small-caps;
+    text-align: justify;
+    font-size: 30px;
+    color: orangered;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+.container>nav{
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+    background-color: red;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.container>nav>a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+.container>nav>a:hover{
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 0px 0px 20px yellow;
+    margin-bottom: 50px;
+}
+
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    border: blue;
+    background-color: gainsboro;
+    float: right;
+}
+
+.container>aside ul li{
+    margin-right: 15px;
+    padding: 5px 10px 5px 5px;
+    font-size: 25px;
+    display: block;
+    border-radius: 3px;
+    border: red 1px solid;
+}
+
+.container>aside ul li:hover{
+    background-color: orangered;
+    margin-right: 15px;
+    padding: 5px 10px 5px 5px;
+    font-size: 25px;
+    display: block;
+    border-radius: 3px;
+    border: red 1px solid;
+}
+
+.container>aside a{
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-variant: small-caps;
+}
+
+.container>aside ul li a:hover{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+
+
+.container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.menu>ul{
+    padding: 0px 0 0px 0;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a{
+    color: white;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding: 5px 10px 5px 10px;
+}
+
+.menu>ul>li>a:hover{
+    color: yellow;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding: 5px 10px 5px 10px;
+}
+.menu ul ul {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 3px;
+    list-style: none;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    position: absolute;
+    display: none;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.menu ul ul a{
+    list-style: none;
+    line-height: 30px;
+    color: orange;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    display: block;
+}
+
+.menu ul ul a:hover{
+    list-style: none;
+    line-height: 30px;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    display: block;
+}
+
+/* .test{
+    margin: 50px 0px 10px 0px;
+    padding-bottom: 20px;
+} */
+.vmenu img{
+    margin-right: 50px;
+}
